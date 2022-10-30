@@ -1,4 +1,140 @@
-body
-{
-    background-color: gray;
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+}
+body {
+    font-family: 'Roboto';
+    color: var(--primary-text-color);
+}
+.head {
+    background-color: #fff;
+}
+.head li {
+    list-style-type: none;
+}
+.logo {
+    font-family: Raleway;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.logo span {
+    color: #000;
+}
+.site-nav a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.site-nav {
+    
+}
+.site-nav .link:hover {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.info-link {
+    
+}
+.info-link a {
+    color: #757575;
+    text-decoration: none;
+}
+.info-link .mail:hover {
+    color: var(--accent-color);
+}
+.info-link .tel:hover {
+    color: var(--accent-color);
+}
+.info-link .mail:focus {
+    color: var(--accent-color);
+}
+.info-link .tel:focus {
+    color: var(--accent-color);
+}
+.hero {
+    color: #fff;
+    background-color: #2F303A;
+}
+.hero button {
+    cursor: pointer;
+}
+
+.button {
+    background-color: var(--accent-color);
+    color: #fff;
+}
+.main {
+    background-color: #F5F5F5;
+}
+.main h3 {
+   color: #212121; 
+}
+.main p {
+    color: var(--text-color);
+}
+.main li {
+    list-style-type: none;
+}
+.profile {
+    background-color: #F5F4FA;
+}
+.profile img {
+    background-color: #fff;
+}
+.profile h3 {
+    color: var(--primary-text-color);
+}
+.profile p {
+    color: var(--text-color);
+}
+.profile li {
+    list-style-type: none;
+}
+.logo-footer {
+    color:var(--accent-color) ;
+    font-family: 'Raleway';
+    background-color: #2F303A ;
+    text-decoration: none;
+}
+.logo-footer span {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    text-decoration: none;
+}
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #fff;
+    background-color: #2F303A;
+}
+.address a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+/* Портфоліо */
+.portfolio ul {
+    list-style-type: none;
+}
+.portfolio {
+    background-color: #F5F5F5;
+}
+.list-button button {
+    background-color: #F5F4FA;
+    color: var(--primary-text-color);
+}
+.list-button button:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+.list-button button {
+    cursor: pointer;
+}
+.list-button button:hover {
+    background-color: var(--accent-color);
+        color: #FFFFFF;
 }

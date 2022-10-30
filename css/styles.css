@@ -4,7 +4,8 @@
     --accent-color: #2196F3;
 }
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'Tahoma',
+        sans-serif;
     color: var(--primary-text-color);
 }
 /* Хедер */
@@ -166,6 +167,12 @@ body {
 .address a {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+}
+.address a:hover {
+    color: var(--accent-color);
+}
+.address a:focus {
+    color: var(--accent-color);
 }
 /* Портфоліо */
 .portfolio ul {

@@ -177,16 +177,16 @@ body {
 .list-button button {
     background-color: #F5F4FA;
     color: var(--primary-text-color);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
+    cursor: pointer;
+    font-family: 'Roboto';
 }
 .list-button button:focus {
     background-color: var(--accent-color);
     color: #FFFFFF;
-}
-.list-button button {
-    cursor: pointer;
 }
 .list-button button:hover {
     background-color: var(--accent-color);
